@@ -4,6 +4,14 @@ Repositorio con todos los archivos markdown y presentaciones que utilizo en mis 
 
 ## Markdowns
 
+* [Introducción a WordPress](https://github.com/jonmircha/markdowns/blob/master/wp-basics.md)
+* [Creación de Temas en WordPress](wp-theming.md)
+* [Taxonomía Personalizada en WordPress](https://github.com/jonmircha/markdowns/blob/master/wp-custom-taxonomy.md)
+* [Snippets Code WordPress](https://github.com/jonmircha/markdowns/blob/master/wp-snippets.md)
+* [](https://github.com/jonmircha/markdowns/blob/master/.md)
+* [](https://github.com/jonmircha/markdowns/blob/master/.md)
+* [](https://github.com/jonmircha/markdowns/blob/master/.md)
+
 ## Presentaciones
 
 * [Curso Progressive Web Apps 2017 de EDteam](https://jonmircha.github.io/edhtml5-pwa2017/#/)
