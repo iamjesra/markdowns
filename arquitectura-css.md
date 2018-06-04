@@ -2,7 +2,7 @@
 
 * [Arquitectura](#arquitectura)
 * [Componentes Modulares](#componentes-modulares)
-* [Patrones de Diseño](#patrones-de-diseno)
+* [Patrones de Diseño](#patrones-de-diseño)
 * [Guías de Estilo](#guías-de-estilo)
 * [Sistemas de Nomenclatura](#sistemas-de-nomenclatura)
 * [Tipos de Arquitecturas](#tipos-de-arquitecturas)
