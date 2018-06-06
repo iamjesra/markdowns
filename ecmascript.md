@@ -26,7 +26,7 @@
 1. [Métodos clase Math](#métodos-clase-math)
 1. [Métodos clase Array](#métodos-clase-array)
 1. [Métodos clase Object](#métodos-clase-object)
-1. [Maps, Sets y Weaks](#maps,-sets-y-weaks)
+1. [Maps Sets y Weaks](#maps-sets-y-weaks)
 
 ## Qué es
 
@@ -1485,7 +1485,7 @@ console.log( Object.entries(c) ); //Imprime [ ["a", 1], ["b", 2] ]
 **[⬆ regresar al índice](#ecmascript)**
 
 
-## Maps, Sets y Weaks
+## Maps Sets y Weaks
 
 ES6 incorpora 4 nuevas estructuras de datos, que son **`Map`**, **`WeakMap`**, **`Set`** y **`WeakSet`**. Si has trabajado con lenguajes como Java o Python ya te harás una idea de para que sirven.
 
