@@ -107,8 +107,6 @@ npm run es6
 **[⬆ regresar al índice](#ecmascript)**
 
 
-# Características ECMAScript 6
-
 ## Variables de bloque y constantes
 
 ### Variables de bloque
