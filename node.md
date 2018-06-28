@@ -21,13 +21,13 @@
 1. Pila de Subprocesos (Async Requests)
 1. Cola de Callbacks (Async Responses)
 
-![Event Loop](../assets/event-loop.png)
+![Event Loop](./assets/event-loop.png)
 
 ## Blocking vs Non Blocking I/O
 
 Comensales VS Meseros
 
-![Comensales VS Meseros](../assets/comensales.jpg)
+![Comensales VS Meseros](./assets/comensales.jpg)
 
 ## Asincronía
 
@@ -35,7 +35,7 @@ Establece la capacidad que tienen las operaciones del flujo de un programa para 
 
 Esto agiliza el proceso de ejecución y permite aumentar la escalabilidad, pero complica el razonamiento sobre el programa.
 
-![Asincronía](../assets/asincronia.png)
+![Asincronía](./assets/asincronia.png)
 
 Mecanismos asíncronos en JavaScript:
 
