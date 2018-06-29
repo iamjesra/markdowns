@@ -35,7 +35,7 @@ Técnicas que nos ayudan a organizar y mantener nuestro código CSS de manera ó
 * Son reutilizables.
 * Son autocontenidos, no filtran estilos a otros componentes.
 
-![Componentes CSS](./assets/componentes-css.png)
+![Componentes CSS](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/componentes-css.png)
 
 **[⬆ regresar al índice](#arquitectura-css)**
 

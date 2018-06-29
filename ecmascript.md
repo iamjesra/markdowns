@@ -856,7 +856,7 @@ Es una manera alternativa a las **`callbacks`** para modelar asincronía.
 
 Callbacks VS Promesas
 
-![Callbacks VS Promesas](assets/callbacks-vs-promise.png)
+![Callbacks VS Promesas](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/callbacks-vs-promise.png)
 
 Promesas en el navegador
 
