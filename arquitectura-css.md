@@ -169,7 +169,7 @@ El objetivo de los preprocesadores es tener un código más sencillo de mantener
 * [Responsive Web Design by Ethan Marcotte](https://alistapart.com/article/responsive-web-design)
 * [Responsive Web Design Is…](https://responsivedesign.is/)
 * [Libros sobre Responsive Web Design](https://github.com/jonmircha/curso-responsive-design/tree/master/Libros)
-* [Todo lo que debes saber sobre el Responsive Web Design (t)](https://ed.team/blog/todo-lo-que-debes-saber-sobre-el-responsive-web-design)
+* [Todo lo que debes saber sobre el Responsive Web Design](https://ed.team/blog/todo-lo-que-debes-saber-sobre-el-responsive-web-design) 🤓
 * [Curso de Responsive Web Design en YouTube](https://www.youtube.com/playlist?list=PLvq-jIkSeTUbFYbzpJFN1GLMBZnm9hX5G)
 * [TESIS: Diseño Web en la era móvil: Diez tips sobre Responsible Responsive Design](http://iconos.edu.mx/qrtesis/140171MV.html)
 
@@ -177,7 +177,7 @@ El objetivo de los preprocesadores es tener un código más sencillo de mantener
 
 ## Progressive Web Apps
 
-* [Aplicaciones Web Progresivas: La evolución del Diseño Responsivo (t)](https://ed.team/blog/aplicaciones-web-progresivas-la-evolucion-del-diseno-responsivo)
+* [Aplicaciones Web Progresivas: La evolución del Diseño Responsivo](https://ed.team/blog/aplicaciones-web-progresivas-la-evolucion-del-diseno-responsivo) 🤓
 * [Más teoría sobre PWA's](https://jonmircha.github.io/edhtml5-pwa2017/#/)
 * [PWA's Google Teoría](https://developers.google.com/web/progressive-web-apps/)
 * [PWA's Google Curso](https://www.youtube.com/playlist?list=PLNYkxOF6rcIAdnzEsWkg0KpMn2WJwMBmN)
