@@ -19,7 +19,7 @@
   * [Grid Garden](http://cssgridgarden.com/)
   * [Griddy](http://griddy.io/)
 
-![Terminología Grid](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/terminologia-grid.svg)
+![Terminología Grid](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/terminologia-grid.png)
 
 ## Flexbox
 
@@ -31,4 +31,4 @@
   * [Flexbox Defense](http://www.flexboxdefense.com/)
   * [Flexbox Froggy](http://flexboxfroggy.com/)
 
-![Terminología Flexbox](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/terminologia-flexbox.svg)
+![Terminología Flexbox](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/terminologia-flexbox.png)
