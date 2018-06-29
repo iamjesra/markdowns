@@ -9,6 +9,7 @@ Repositorio con todos los archivos markdown y presentaciones que utilizo en mis 
 * [Taxonomía Personalizada en WordPress](wp-custom-taxonomy.md)
 * [Snippets Code WordPress](wp-snippets.md)
 * [Arquitectura CSS](arquitectura-css.md)
+* [Maquetación CSS](maquetacion-css.md)
 * [EcmaScript](ecmascript.md)
 * [Webpack](webpack.md)
 * [Node](node.md)
