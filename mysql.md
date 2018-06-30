@@ -9,11 +9,11 @@
 
 ### Para comenzar
 
-* [Conceptos básicos de bases de datos](https://ed.team/blog/conceptos-basicos-de-bases-de-datos) 🤓
-* [Modelo Entidad-Relación](https://ed.team/blog/modelo-entidad-relacion) 🤓
-* [Normalización de bases de datos](https://ed.team/blog/normalizacion-de-bases-de-datos) 🤓
-* [Documentación oficial](https://dev.mysql.com/doc/)
-* [MySQL con Clase](http://mysql.conclase.net/curso/index.php)
+* [Conceptos básicos de bases de datos](https://ed.team/blog/conceptos-basicos-de-bases-de-datos) 🤓.
+* [Modelo Entidad-Relación](https://ed.team/blog/modelo-entidad-relacion) 🤓.
+* [Normalización de bases de datos](https://ed.team/blog/normalizacion-de-bases-de-datos) 🤓.
+* [Documentación oficial](https://dev.mysql.com/doc/).
+* [MySQL con Clase](http://mysql.conclase.net/curso/index.php).
 
 ### Conceptos básicos
 
@@ -38,15 +38,15 @@ SQL, NO distingue entre MÁYUSCULAS y minúsculas pero:
 
 ### Tipos de Sentencias SQL
 
-* De Objetos
-* De Datos
+* De Objetos.
+* De Datos.
 
 ### Concepto CRUD
 
-* Create
-* Read
-* Update
-* Delete
+* Create.
+* Read.
+* Update.
+* Delete.
 
 ![CRUD](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/crud.png)
 
@@ -56,9 +56,9 @@ SQL, NO distingue entre MÁYUSCULAS y minúsculas pero:
 
 Objetos básicos en SQL:
 
-* Bases de Datos
-* Tablas
-* [Usuarios (y sus Privilegios)](http://rm-rf.es/usuario-mysql-como-crear-borrar-y-asignar-privilegios/)
+* Bases de Datos.
+* Tablas.
+* [Usuarios (y sus Privilegios)](http://rm-rf.es/usuario-mysql-como-crear-borrar-y-asignar-privilegios/).
 
 ### Bases de Datos
 
@@ -78,16 +78,16 @@ ALTER TABLE a_table [ADD COLUMN || DROP COLUMN || MODIFY];
 DESCRIBE a_table;
 ```
 
-* Motores de Tablas
-  * [MyISAM vs InnoDB](http://www.webreunidos.es/blog/myisam-vs-innodb/)
+* Motores de Tablas:
+  * [MyISAM vs InnoDB](http://www.webreunidos.es/blog/myisam-vs-innodb/).
   * [¿Qué motor elegir?](http://blog.arsys.es/myisam-o-innodb-elige-tu-motor-de-almacenamiento-mysql/)
-  * [Diferencias](http://blog.openalfa.com/diferencias-entre-innodb-y-myisam-en-mysql)
-* [Tipos de Datos en MySQL](http://mysql.conclase.net/curso/index.php?cap=005#)
+  * [Diferencias entre motores](http://blog.openalfa.com/diferencias-entre-innodb-y-myisam-en-mysql).
+* [Tipos de Datos en MySQL](http://mysql.conclase.net/curso/index.php?cap=005#).
 * [Restricciones](http://blog.openalfa.com/como-trabajar-con-restricciones-de-clave-externa-en-mysql) de tipo ON DELETE y ON UPDATE:
-  * RESTRICT
-  * CASCADE
-  * SET NULL
-  * NO ACTION
+  * RESTRICT.
+  * CASCADE.
+  * SET NULL.
+  * NO ACTION.
 
 ### Usuarios
 
@@ -111,10 +111,10 @@ FLUSH PRIVILEGES;
 
 ## Sentencias de Datos
 
-* Create - **`INSERT`**
-* Read   - **`SELECT`**
-* Update - **`UPDATE`**
-* Delete - **`DELETE`**
+* Create - **`INSERT`**.
+* Read   - **`SELECT`**.
+* Update - **`UPDATE`**.
+* Delete - **`DELETE`**.
 
 ### CREATE
 
@@ -213,6 +213,14 @@ DELETE FROM table WHERE field = value;
 ## SQL Avanzado
 
 ### [Funciones de Encriptación](http://dev.mysql.com/doc/refman/5.7/en/encryption-functions.html)
+
+* ENCRYPT.
+* PASSWORD.
+* MD5.
+* SHA.
+* SHA1.
+* SHA2.
+* etc.
 
 ### [Consultas FULLTEXT](http://dev.mysql.com/doc/internals/en/full-text-search.html)
 
@@ -317,6 +325,8 @@ SELECT t1.field_1, t1.field_2, t1.field_3, (
 ```
 
 ### [Función GROUP_CONCAT](http://otroblogmas.com/funcion-group_concat-de-mysql/)
+
+Sirve para concatenar con un separador, todos los registros afectados por un GROUP BY en un solo campo de salida.
 
 ### [Procedimientos almacenados](https://www.codejobs.biz/es/blog/2014/07/09/como-hacer-un-procedimiento-almacenado-en-mysql-sin-morir-en-el-intento)
 
