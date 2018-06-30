@@ -98,7 +98,7 @@ function custom_post_type() {
 add_action( 'init', 'custom_post_type', 0 );
 ```
 
-**[⬆ regresar al índice](#taxonomía-personalizada)**
+**[🔙 Regresar](#taxonomía-personalizada)**
 
 ## Custom Taxonomies
 
@@ -167,7 +167,7 @@ function custom_taxonomy() {
 add_action( 'init', 'custom_taxonomy', 0 );
 ```
 
-**[⬆ regresar al índice](#taxonomía-personalizada)**
+**[🔙 Regresar](#taxonomía-personalizada)**
 
 ## Custom Fields
 
@@ -186,7 +186,7 @@ the_meta();
 echo get_post_meta( get_the_ID(), 'a_key', true );
 ```
 
-**[⬆ regresar al índice](#taxonomía-personalizada)**
+**[🔙 Regresar](#taxonomía-personalizada)**
 
 ## Metaboxes
 
@@ -222,4 +222,4 @@ function callback_metaboxes () {
 add_action('add_meta_boxes', 'add_a_metaboxes');
 ```
 
-**[⬆ regresar al índice](#taxonomía-personalizada)**
+**[🔙 Regresar](#taxonomía-personalizada)**

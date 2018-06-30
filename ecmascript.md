@@ -50,7 +50,7 @@
 | 9 | 2018 | ES2018 aka ES9. |
 | | | ... y así sucesivamente... |
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 ## Babel
 
@@ -104,7 +104,7 @@ Ejecutar el script en la terminal
 npm run es6
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Variables de bloque y constantes
@@ -156,7 +156,7 @@ console.log(D); //Imprime el objeto document
 console.log(D.documentElement); //Imprime el elemento <html>
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Nivel de Bloques
@@ -191,7 +191,7 @@ function f() { return 1; }
 console.log( f() ); //Imprime 1
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Plantillas de cadenas de texto
@@ -249,7 +249,7 @@ let otroNombre = 'Ulises';
 etiqueta`Hola ${otroNombre}`;
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Funciones flecha
@@ -418,7 +418,7 @@ console.log(jon); //Imprime el valor de edad más uno por cada segundo que pasa
 console.log(jon.edad); //Imprime la edad
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Objetos literales
@@ -476,7 +476,7 @@ console.log(perro); //Imprime Object {nombre: "kEnAi", edad: 4}
 perro.ladrar(); //Manda alerta
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Destructuración
@@ -516,7 +516,7 @@ console.log(email); //Imprime jonmircha@gmail.com
 console.log(phone); //Imprime 5566778899
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Parámetros por defecto
@@ -542,7 +542,7 @@ pais(); //Imprime Terrestre
 pais('México'); //Imprime México
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Parámetros rest
@@ -566,7 +566,7 @@ sumar(1,2,3,4); //Imprime 10
 sumar(1,2,3,4,5); //Imprime 15
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Operador de propagación
@@ -592,7 +592,7 @@ console.log(cuerpo); //Imprime ["cabeza", "hombros", "brazos", "tronco", "pelvis
 console.log(...cuerpo); //Imprime cabeza hombros brazos tronco pelvis piernas rodillas pies
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Clases
@@ -698,7 +698,7 @@ console.log(jon.nacionalidad); //Imprime México
 console.log(jon); //Imprime Humano {nombre: "Jonathan", edad: 32, genero: "Macho", razonar: true, _nacionalidad: "México"}
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Módulos
@@ -841,7 +841,7 @@ import React, { Component, PropTypes } from 'react';
 
 > **Nota**: Los valores que se exportan son **enlaces**, no referencias. Por lo tanto, cambiar el enlace de una variable en un módulo, afectará su valor. Evita cambiar la interfaz pública de módulos exportados.
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Promesas
@@ -920,7 +920,7 @@ promise
   .catch((err) => { console.log(err.message); });
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Iteradores
@@ -971,7 +971,7 @@ for ( let character of aString ) {
 }
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Símbolos
@@ -1033,7 +1033,7 @@ for (let item of iterable) {
 }
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Generadores
@@ -1121,7 +1121,7 @@ for ( let persona of gente.alias() ){
 }
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Proxies
@@ -1161,7 +1161,7 @@ console.log( persona.edad ); //Imprime 33
 persona.edad = -10; //Imprime Error: Valor inválido para la propiedad edad
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Reflexión
@@ -1195,7 +1195,7 @@ console.log( Reflect.has( obj, 'x' ) ); //Imprime false
 console.log( obj ); //Imprime Object {y: 2}
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Decoradores
@@ -1252,7 +1252,7 @@ alguien.nombrar = () => {
 } //Ejecutará Cannot assign to read only property 'nombrar' of object '#<Persona>'
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Funciones Asíncronas
@@ -1331,7 +1331,7 @@ async function copyFile() {
 copyFile();
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Métodos clase String
@@ -1356,7 +1356,7 @@ console.log( nombre.includes('th') ); //Imprime true
 console.log( nombre.repeat(3) ); //Imprime JonathanJonathanJonathan}
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Números octales y binarios
@@ -1369,7 +1369,7 @@ console.log(0o17); //Imprime 15
 console.log(0b100); //Imprime 4
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Métodos clase Math
@@ -1414,7 +1414,7 @@ console.log( Math.tanh(19) ); //Imprime 0.9999999999999999
 console.log( Math.trunc(40.56) ); //Imprime 40
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Métodos clase Array
@@ -1455,7 +1455,7 @@ console.log( [1, 2, 3].includes(2) ); //Imprime true
 console.log( [1, 2, 3].includes(4) ); //Imprime false
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Métodos clase Object
@@ -1482,7 +1482,7 @@ console.log( Object.values(c) ); //Imprime [1, 2]
 console.log( Object.entries(c) ); //Imprime [ ["a", 1], ["b", 2] ]
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**
 
 
 ## Maps Sets y Weaks
@@ -1641,4 +1641,4 @@ weakset.delete(objs);
 console.log( weakset.has(objs) ); //Imprime false
 ```
 
-**[⬆ regresar al índice](#ecmascript)**
+**[🔙 Regresar](#ecmascript)**

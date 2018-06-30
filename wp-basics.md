@@ -62,7 +62,7 @@
 * [WAMP](http://www.wampserver.com/en/)
 * [XAMPP](https://www.apachefriends.org/es/index.html)
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ## Instalación
 
@@ -108,7 +108,7 @@
 
 **Nota:** Si te quedan dudas puedes ver el siguiente **[video](https://www.youtube.com/watch?v=lE4wO3C4Eyg)**.
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ##  Generando Contenido
 
@@ -154,7 +154,7 @@ En palabras de [Matt Mullenweg](https://en.blog.wordpress.com/2007/09/22/tags-an
 * [Temas](https://wordpress.org/themes/).
 * [Plugins](https://wordpress.org/plugins/).
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ## Plugins
 
@@ -311,7 +311,7 @@ En palabras de [Matt Mullenweg](https://en.blog.wordpress.com/2007/09/22/tags-an
 
 * [WooCommerce](https://wordpress.org/plugins/woocommerce/)
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ##  Optimización
 
@@ -363,7 +363,7 @@ URLs diferentes para un mismo recurso. Páginas que suelen compartir el mismo co
 * [Broken Link Checker](https://es.wordpress.org/plugins/broken-link-checker/)
 * [itemprop WP for SERP/SEO Rich snippets](https://wordpress.org/plugins/itempropwp/)
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ### WPO
 
@@ -391,7 +391,7 @@ Todos los CMS suelen estar **poco optimizados** en este aspecto por lo que debes
 * [Autoptimize](https://wordpress.org/plugins/autoptimize/)
 * [P3 (Plugin Performance Profiler)](https://es.wordpress.org/plugins/p3-profiler/)
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ### Seguridad
 
@@ -414,7 +414,7 @@ Todos los CMS suelen estar **poco optimizados** en este aspecto por lo que debes
 * [Brozzme DB Prefix](https://es.wordpress.org/plugins/brozzme-db-prefix-change/)
 * [WP Limit Login Attempts](https://es.wordpress.org/plugins/wp-limit-login-attempts/)
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**
 
 ## Backup
 
@@ -460,4 +460,4 @@ Todos los CMS suelen estar **poco optimizados** en este aspecto por lo que debes
 * [BackWPup - WordPress Backup Plugin](https://wordpress.org/plugins/backwpup/)
 * [Backup & Restore Dropbox](https://es.wordpress.org/plugins/dropbox-backup/)
 
-**[⬆ regresar al índice](#wordpress)**
+**[🔙 Regresar](#wordpress)**

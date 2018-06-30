@@ -22,7 +22,7 @@ Aplicando el concepto a CSS:
 
 Técnicas que nos ayudan a organizar y mantener nuestro código CSS de manera óptima y saludable; abstrayéndolo y dividiéndolo en módulos y/o componentes que permitirán su reutilización y escalabilidad de manera estructurada y ordenada.
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Componentes Modulares
 
@@ -37,7 +37,7 @@ Técnicas que nos ayudan a organizar y mantener nuestro código CSS de manera ó
 
 ![Componentes CSS](https://raw.githubusercontent.com/jonmircha/markdowns/master/assets/componentes-css.png)
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Patrones de Diseño
 
@@ -57,7 +57,7 @@ Un patrón resulta ser una solución a un problema. Para que una solución sea c
 * Si trabajamos en equípo mantiene el órden.
 * Promueven la filosofía DRY (Don't Repeat Yourself).
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Guías de Estilo
 
@@ -68,7 +68,7 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 * [CSS Guidelines](https://cssguidelin.es/)
 * [Code Guide](http://codeguide.co/)
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Sistemas de Nomenclatura
 
@@ -112,7 +112,7 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 .Menu-link { ... }
 ```
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Tipos de Arquitecturas
 
@@ -123,7 +123,7 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 * [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
 * [GEL by BBC](http://www.bbc.co.uk/gel)
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Frameworks
 
@@ -141,7 +141,7 @@ Genera un código más legible y fácil de mantener, disminuyen la cantidad de e
 * [Skeleton](http://getskeleton.com/)
 * [jQueryMobile](https://jquerymobile.com/)
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Preprocesadores
 
@@ -162,7 +162,7 @@ El objetivo de los preprocesadores es tener un código más sencillo de mantener
   * CSS Modules
   * Stylelint
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Responsive Web Design
 
@@ -173,7 +173,7 @@ El objetivo de los preprocesadores es tener un código más sencillo de mantener
 * [Curso de Responsive Web Design en YouTube](https://www.youtube.com/playlist?list=PLvq-jIkSeTUbFYbzpJFN1GLMBZnm9hX5G)
 * [TESIS: Diseño Web en la era móvil: Diez tips sobre Responsible Responsive Design](http://iconos.edu.mx/qrtesis/140171MV.html)
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**
 
 ## Progressive Web Apps
 
@@ -186,4 +186,4 @@ El objetivo de los preprocesadores es tener un código más sencillo de mantener
   * [Videos](https://www.youtube.com/playlist?list=PLvq-jIkSeTUYIw8CP2AP7QJs4GeeZdvs6)
   * [Código](https://github.com/jonmircha/miniserie-sitioweb-a-pwa)
 
-**[⬆ regresar al índice](#arquitectura-css)**
+**[🔙 Regresar](#arquitectura-css)**

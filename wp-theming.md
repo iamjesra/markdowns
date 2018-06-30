@@ -21,7 +21,7 @@
   * [por Templates Files](https://developer.wordpress.org/themes/basics/template-hierarchy/)
   * [por Conditional Tags](https://codex.wordpress.org/Conditional_Tags)
 
-**[⬆ regresar al índice](#creación-de-temas-en-wordpress)**
+**[🔙 Regresar](#creación-de-temas-en-wordpress)**
 
 ## Estructura de Archivos
 
@@ -44,7 +44,7 @@ Los temas pueden incluir archivos de plantilla personalizados, archivos de image
 * **footer.php**: Contiene el pié de página.
 * **sidebar.php**: Contiene la barra lateral.
 
-**[⬆ regresar al índice](#creación-de-temas-en-wordpress)**
+**[🔙 Regresar](#creación-de-temas-en-wordpress)**
 
 ## Hooks:
 
@@ -63,7 +63,7 @@ Para el correcto funcionamiento de hooks propios, de wordpress y/o de plugins de
 
  De esta manera WordPress permite inyectar de forma dinámica el código html, css y/o js que se requiera para cada funcionalidad.
 
- **[⬆ regresar al índice](#creación-de-temas-en-wordpress)**
+ **[🔙 Regresar](#creación-de-temas-en-wordpress)**
 
 ## The Loop
 
@@ -80,7 +80,7 @@ else:
 endif;
 ```
 
-**[⬆ regresar al índice](#creación-de-temas-en-wordpress)**
+**[🔙 Regresar](#creación-de-temas-en-wordpress)**
 
 ## Jerarquía de Plantillas
 
@@ -90,4 +90,4 @@ Se puede tomar ventaja de la jerarquía de plantillas creando diferentes archivo
 
 ![Jerarquía de Plantillas en WordPress](https://developer.wordpress.org/files/2014/10/wp-hierarchy.png)
 
-**[⬆ regresar al índice](#creación-de-temas-en-wordpress)**
+**[🔙 Regresar](#creación-de-temas-en-wordpress)**

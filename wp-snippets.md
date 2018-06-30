@@ -132,7 +132,7 @@
 </html>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Plantilla WordPress básica
 
@@ -243,7 +243,7 @@
 </html>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Comentarios style.css
 
@@ -262,7 +262,7 @@ Text Domain: mawt
 */
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Comentarios functions.php
 
@@ -281,7 +281,7 @@ Text Domain: mawt
 ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Ancho máximo
 
@@ -293,7 +293,7 @@ if ( !isset( $content_width ) ) {
 }
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Inyectar archivos CSS y JS
 
@@ -317,7 +317,7 @@ function mawt_scripts () {
 add_action('wp_enqueue_scripts', 'mawt_scripts');
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## The Loop
 
@@ -346,7 +346,7 @@ else:
 endif;
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Paginación
 
@@ -365,7 +365,7 @@ endif;
 <?php endif; ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Menús
 
@@ -412,7 +412,7 @@ else:
 ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Widgets
 
@@ -447,7 +447,7 @@ add_action('widgets_init', 'mawt_register_sidebars');
 </aside>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Soporte al tema
 
@@ -507,7 +507,7 @@ function mawt_setup () {
 add_action( 'after_setup_theme', 'mawt_setup' );
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Datos autor
 
@@ -549,7 +549,7 @@ add_action( 'after_setup_theme', 'mawt_setup' );
 </aside>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Plantilla comentarios
 
@@ -573,7 +573,7 @@ add_action( 'after_setup_theme', 'mawt_setup' );
 </aside>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Traducciones
 
@@ -588,7 +588,7 @@ add_action( 'after_setup_theme', 'mawt_setup' );
   load_theme_textdomain( 'mawt', get_template_directory() . '/languages' );
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Cabecera configurable
 
@@ -689,7 +689,7 @@ function mawt_wp_header_style () {
 <?php endif; ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Customizer
 
@@ -723,7 +723,7 @@ function mawt_customize_blogdescription () {
 ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Custom login
 
@@ -754,7 +754,7 @@ add_filter( 'login_headertitle', 'mawt_login_logo_url_title' );
 ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Custom admin
 
@@ -785,7 +785,7 @@ add_filter( 'user_contactmethods', 'mawt_user_contactmethods' );
 ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Clase WP_Query
 
@@ -824,7 +824,7 @@ wp_reset_postdata();
 wp_reset_query();
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
 
 ## Child Themes
 
@@ -884,4 +884,4 @@ add_action( 'after_setup_theme', 'child_mawt_setup' );
 ?>
 ```
 
-**[⬆ regresar al índice](#snippets-code-wordpress)**
+**[🔙 Regresar](#snippets-code-wordpress)**
