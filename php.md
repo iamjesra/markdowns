@@ -4,7 +4,7 @@
 
 * En un inicio significó ***Personal Home Pages***.
 * Posteriormente el acrónimo cambio a ***Hypertext Preprocessor***.
-* Creado en 1995 por Rasmus Lerdoff.
+* Creado en 1995 por [Rasmus Lerdorf](https://twitter.com/rasmus).
 * Originalmente no se pensó como lenguaje de programación, sino como una herramienta web para generar contenido HTML dinámico.
 * Es el lenguaje de backend más extendido en la web.
 * PHP, SÍ distingue entre MÁYUSCULAS y minúsculas.
