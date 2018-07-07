@@ -2,8 +2,8 @@
 
 * [Plantilla HTML5 básica](#plantilla-html5-básica)
 * [Plantilla WordPress básica](#plantilla-wordpress-básica)
-* [Comentarios style.css](#comentarios-style.css)
-* [Comentarios functions.php](#comentarios-functions.php)
+* [Comentarios style.css](#comentarios-stylecss)
+* [Comentarios functions.php](#comentarios-functionsphp)
 * [Ancho máximo](#ancho-máximo)
 * [Inyectar archivos CSS y JS](#inyectar-archivos-css-y-js)
 * [The Loop](#the-loop)
