@@ -392,6 +392,7 @@ npm start
 const HtmlWebPackPlugin = require('html-webpack-plugin'),
   MiniCssExtractPlugin = require('mini-css-extract-plugin'),
   CleanWebpackPlugin = require('clean-webpack-plugin'),
+  autoprefixer = require('autoprefixer'),
   { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
@@ -400,12 +401,14 @@ module.exports = {
     vanilla: './src/hello_vanilla.js',
     react: './src/hello_react.js',
     vue: './src/hello_vue.js',
-    ts: './src/hello_ts.js'
+    ts: './src/hello_ts.js',
+    hbs: './src/hello_hbs.js',
+    todo: './src/to_do.js'
   },
   output: {
     filename: '[name].[chunkhash].js',
   },
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   module: {
     rules: [
       {
@@ -430,7 +433,16 @@ module.exports = {
           'style-loader', // creates style nodes from JS strings
           MiniCssExtractPlugin.loader,
           'css-loader?minimize&sourceMap', // translates CSS into CommonJS
-          'postcss-loader?sourceMap',
+          {
+            loader: 'postcss-loader',
+            options: {
+              autoprefixer: {
+                browsers: ['last 2 versions']
+              },
+              sourceMap: true,
+              plugins: () => [autoprefixer]
+            }
+          },
           'resolve-url-loader',
           'sass-loader?outputStyle=compressed&sourceMap' // compiles Sass to CSS
         ],
@@ -459,51 +471,115 @@ module.exports = {
         use: {
           loader: 'ts-loader'
         }
+      },
+      {
+        test: /\.(handlebars|hbs)$/,
+        use: {
+          loader: 'handlebars-loader',
+          options: { helperDirs: './hbs/helpers' }
+        }
       }
     ]
   },
   plugins: [
-    new CleanWebpackPlugin(['dist/*.*']),
+    new CleanWebpackPlugin(['dist/**/*.*']),
     new MiniCssExtractPlugin({
       filename: '[name].[chunkhash].css',
       chunkFilename: '[id].css'
     }),
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './src/template.html',
       filename: 'index.html',
       favicon: './src/img/favicon.ico',
       hash: true,
-      chunks: ['js']
+      chunks: ['js'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
     }),
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './src/template.html',
       filename: 'hello-vanilla.html',
       favicon: './src/img/favicon.ico',
       hash: true,
-      chunks: ['vanilla']
+      chunks: ['vanilla'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
     }),
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './src/template.html',
       filename: 'hello-react.html',
       favicon: './src/img/favicon.ico',
       hash: true,
-      chunks: ['react']
+      chunks: ['react'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
     }),
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './src/template.html',
       filename: 'hello-vue.html',
       favicon: './src/img/favicon.ico',
       hash: true,
-      chunks: ['vue']
+      chunks: ['vue'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
     }),
+    new VueLoaderPlugin(),
     new HtmlWebPackPlugin({
-      template: './src/index.html',
+      template: './src/template.html',
       filename: 'hello-ts.html',
       favicon: './src/img/favicon.ico',
       hash: true,
-      chunks: ['ts']
+      chunks: ['ts'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
     }),
-    new VueLoaderPlugin()
+    new HtmlWebPackPlugin({
+      title: 'My Awesome Webpack & Handlebars App',
+      template: './src/index.hbs',
+      filename: 'hello-hbs.html',
+      favicon: './src/img/favicon.ico',
+      hash: true,
+      chunks: ['hbs'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/template.html',
+      filename: 'to-do.html',
+      favicon: './src/img/favicon.ico',
+      hash: true,
+      chunks: ['todo'],
+      minify: {
+        html5: true,
+        collapseWhitespace: true,
+        caseSensitive: true,
+        removeComments: true
+      }
+    })
   ]
 }
 ```
