@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Precios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Precios</h1>
+    </header>
+    <main>
+        <form id="priceForm">
+            <label for="cost">Costo del Producto:</label>
+            <input type="number" id="cost" name="cost" required>
+            
+            <label for="profitPercentage">Porcentaje de Ganancia:</label>
+            <input type="number" id="profitPercentage" name="profitPercentage" required>
+            
+            <button type="button" onclick="calculatePrice()">Calcular Precio</button>
+        </form>
+        <div id="result">
+            <p>Precio Final: <span id="finalPrice"></span></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Calculadora de Precios. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+/* Importing the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #82c91e;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    background-color: #339af0;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1971c2;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #82c91e;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+function calculatePrice() {
+    const cost = parseFloat(document.getElementById('cost').value);
+    const profitPercentage = parseFloat(document.getElementById('profitPercentage').value);
+    
+    if (!isNaN(cost) && !isNaN(profitPercentage)) {
+        const profit = (cost * profitPercentage) / 100;
+        const finalPrice = cost + profit;
+        
+        document.getElementById('finalPrice').textContent = finalPrice.toFixed(2);
+    } else {
+        alert('Por favor, ingrese valores válidos.');
+    }
+}
